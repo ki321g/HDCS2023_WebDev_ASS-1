@@ -1,0 +1,116 @@
+---
+layout: layout.njk
+---  
+<!--  Content & Sidebar -->
+<main>    
+  <section class="main-content content-background-white">
+    <!-- CONTENT START -->
+    <section class="content-section">
+      <div class="content-heading">
+        <h1 class="h1-page-style">
+          <span class="h1-page-line content-background-white">
+            Six Nations News
+          </span>
+        </h1>
+      </div>
+      <div class="content_main">          
+        <div class="news-container">
+          <div class="news-item news-item1">
+            <a class="div_link" href="/news_1">
+              <img src="/images/item1.jpg" alt="Item 1">
+              <h3>TOWNSEND: SCOTLAND PLAYED THEIR ‘BEST RUGBY OF THE TOURNAMENT’...</h3>
+              <p>Gregor Townsend feels Scotland delivered their best performance of the Championship in their
+                narrow 32-21 defeat against France...</p>
+            </a>
+          </div>
+          <div class="news-item news-item2">
+            <a class="div_link" href="/news_2">
+              <img src="/images/item2.jpg" alt="Item 2">
+              <h3>WHAT IMPACT CAN IRELAND’S RETURNING STARS HAVE ON GRAND SLAM DREAM?</h3>
+              <p>Andy Farrell gave Ireland supporters the news they had been desperate to hear after their 34-20
+                victory over Italy...
+              </p>
+          </div>
+          <div class="news-item news-item3">
+            <a class="div_link" href="/news_3">
+              <img src="/images/item3.jpg" alt="Item 3">
+              <h3>ANALYSIS: HOW ITALY’S ATTACK OPENED UP IRELAND</h3>
+              <p>Paolo Garbisi’s long-awaited return came with a great deal of expectation and the fly-half lived up
+                to it and more...</p>
+            </a>
+          </div>
+        </div>
+        <div class="content-heading">
+          <h1 class="h1-page-style">
+            <span class="h1-page-line content-background-white">
+              Videos
+            </span>
+          </h1>
+        </div>
+        <div class="video-container">
+          <div class="video-item">
+            <a href="#video-modal_1">
+              <div class="video-image" style="background-image: url('/images/irevwal.jpg');"></div>
+              <div class="video-text">HIGHLIGHTS | Wales v Ireland | 2023 Guinness Six Nations</div>
+            </a>
+          </div>
+          <div class="video-item">
+            <a href="#video-modal_2">
+              <div class="video-image" style="background-image: url('/images/fraveng.jpg');"></div>
+              <div class="video-text">HIGHLIGHTS |England v Italy | 2023 Guinness Six Nations</div>
+            </a>
+          </div>
+          <div class="video-item">
+            <a href="#video-modal_3">
+              <div class="video-image" style="background-image: url('/images/irevita.jpg');"></div>
+              <div class="video-text">HIGHLIGHTS |Italy v Ireland | 2023 Guinness Six Nations</div>
+            </a>
+          </div>
+          <div class="video-item">
+            <a href="#video-modal_4">
+              <div class="video-image" style="background-image: url('/images/irevfra.jpg');"></div>
+              <div class="video-text">HIGHLIGHTS | Ireland v France | 2023 Guinness Six Nations</div>
+            </a>
+          </div>
+        </div>
+        <!-- IRELAND Wales-->
+        <div id="video-modal_1" class="modal">
+          <div class="modal-content">
+            <iframe width="560" height="315" src="
+            https://www.youtube.com/embed/GD73gVROkIs?controls=0" frameborder="0" allowfullscreen></iframe>
+            <a href="#" class="modal-close"></a>
+          </div>
+        </div>
+        <!-- England Italy-->
+        <div id="video-modal_2" class="modal">
+          <div class="modal-content">
+            <iframe width="560" height="315" src="
+            https://www.youtube.com/embed/k-cFRwpRTdA?controls=0" frameborder="0" allowfullscreen></iframe>
+            <a href="#" class="modal-close"></a>
+          </div>
+        </div>
+        <!-- Italy Ireland -->
+        <div id="video-modal_3" class="modal">
+          <div class="modal-content">
+            <iframe width="560" height="315" src="
+            https://www.youtube.com/embed/mJ44YFXBVXY?controls=0" frameborder="0" allowfullscreen></iframe>
+            <a href="#" class="modal-close"></a>
+          </div>
+        </div>
+        <!-- Ireland France -->
+        <div id="video-modal_4" class="modal">
+          <div class="modal-content">
+            <iframe width="560" height="315" src="
+            https://www.youtube.com/embed/19XUQQzErMQ?controls=0" frameborder="0" allowfullscreen></iframe>
+            <a href="#" class="modal-close"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CONTENT END -->
+    <!-- Sidebar Start -->
+    {% include "sidebar.njk" %}
+    <!-- Sidebar End -->      
+  </section>  
+</main>
+<!--  Content & Sidebar END-->
