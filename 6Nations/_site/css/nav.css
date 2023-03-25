@@ -1,0 +1,106 @@
+nav * {padding: 0; margin: 0;}
+
+.nav-container  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;   
+}
+
+.navigation  {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: 'Figtree', sans-serif;
+  font-style: black;
+  font-weight: 900;
+  font-size: 1.2em;
+}
+
+.navigation a {
+  display: block;
+  color: #133876;
+  text-decoration: none;   
+  padding: 1em;
+}
+
+.navigation a:hover{
+  height: 100%;
+  color: #E2E3E9;
+  background-color: #133876;
+}
+
+.navigation li:hover > a{
+  height: 100%;
+  color: #E2E3E9;
+  background-color: #133876;
+}
+
+.navigation li
+{
+  list-style: none;
+}
+
+.navigation li:first-child {
+  margin-left: 30px;
+}
+
+.navigation li ul
+{
+  display: none;
+  z-index: 1;
+}
+
+.navigation li:hover ul
+{
+  display: block;
+  position: absolute;
+  background-color: #E2E3E9;
+  border-top: 0.95rem solid #133876;
+  box-shadow: 0 1.2rem 2.4rem 0 rgb(0 0 0 / 20%);
+  border-radius: 0 0 1rem 1rem; 
+  font-size: 1rem;
+  text-transform: none;
+  text-align: center;
+  line-height:  80%;
+  transition: opacity .3s ease,top .3s ease,visibility .3s ease;
+  box-shadow: 0 1.2rem 2.4rem 0 rgb(0 0 0 / 20%);
+  min-width: 10rem;
+}
+
+.navigation li:hover ul .nav-ireland a:hover  {
+  background-color: #006643 !important;
+}
+.navigation li:hover ul .nav-england a:hover {
+  background-color: #B80D2F !important;
+}
+.navigation li:hover ul .nav-france a:hover{
+  background-color: #003576 !important;
+}
+.navigation li:hover ul .nav-wales a:hover{
+  background-color: #E52713 !important;
+}
+.navigation li:hover ul .nav-scotland a:hover{
+  background-color: #004B85 !important;
+}
+.navigation li:hover ul .nav-italy a:hover{
+  background-color: #0053A1 !important;
+  border-radius: 0 0 1rem 1rem; 
+}
+
+.navigation li ul li:first-child {
+  margin-left: 0px;
+}
+
+.navigation li ul a {
+  color: #133876;
+  font-weight: 600;
+  font-size: 1rem;   
+  padding: 1.4em; 
+}
+
+
+
+
+
