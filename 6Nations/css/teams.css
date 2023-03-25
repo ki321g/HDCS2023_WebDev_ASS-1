@@ -1,0 +1,80 @@
+
+.teams-section {
+  grid-area: teams;
+  margin-top: 20px; 
+}
+
+.teams-container  {
+ display: flex;
+ justify-content: flex-end;
+}
+
+.team-text {
+  display: block;
+  color: #133876;
+  text-transform: uppercase;
+  font-family: 'Figtree', sans-serif;
+  font-weight: 900;
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+.teams-container img {
+   vertical-align: middle;
+}
+
+.team-logo  {
+  direction: rtl;
+  display: flex;  
+  justify-content: flex-start;
+  padding-right: 25%;
+}
+
+.team-logo img {
+    max-width: 100%;   
+    vertical-align: middle;
+    border: 0;
+    padding: 0 10px 10px 10px;
+}
+
+.team-logo a {
+  display: block;
+  text-decoration: none;
+}
+
+.team-logo li
+{
+    list-style: none;
+}
+
+.grow { 
+  height: 60px;
+  transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+    transform: scale(1.5); 
+}
+
+.nav-team-logo .grow:hover { 
+    transform: scale(1); 
+}
+.nav-team-logo .grow { 
+  height: 50px;
+  transition: all .2s ease-in-out; 
+}
+
+
+.svg-class {
+  max-width: 100%;   
+  vertical-align: middle;
+  border: 0;
+  padding: 0 10px 10px 10px;
+}
+
+.match-info .home-team-fix-res .svg-class,
+.match-info .away-team-fix-res .svg-class  { 
+   padding: 0 100px 60px 0px;
+}
+
+    

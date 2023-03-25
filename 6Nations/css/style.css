@@ -1,0 +1,41 @@
+@import url("content.css");
+@import url("grid.css");
+@import url("nav.css");
+@import url("teams.css");
+@import url("audio.css");
+@import url("sidebar.css");
+@import url("responsive.css");
+@import url("results-fixtures.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 16px 'Figtree', sans-serif;
+  height: 100vh;
+
+  display: grid;
+  grid-template-areas:
+    'header header header'
+    'content content content'
+    'footer footer footer';
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: auto 1fr .3fr;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,115 @@
+audio::-webkit-media-controls-toggle-closed-captions-button,
+audio::-webkit-media-controls-mute-button,
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-volume-slider,
+audio::-webkit-media-controls-timeline {
+    background-color: #B1D4E0;
+}
+
+audio::-webkit-media-controls {
+  align-items: center;
+  justify-content: center;
+ 
+  border-radius: 6px;
+  padding: 4px;
+  height: 16px;  
+  text-align: right;
+}
+
+audio::-webkit-media-controls-panel {
+  background: repeating-linear-gradient(
+  to left,
+  #006643 0% 16.68%,
+  #003576 16.68% 33.36%,
+  #B80D2F 33.36% 50.04%,
+  #004B85 50.04% 66.72%,
+  #E52713 66.72% 83.4%,
+  #0053A1 83.4% 100%);
+  width: 100%;
+}  
+
+audio::-webkit-media-controls-mute-button,
+audio::-webkit-media-controls-play-button {
+  border-radius: 50%;
+}
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+  color: #E2E3E9;
+  font-size: 18px;
+}
+
+audio::-webkit-media-controls-timeline {
+  border-radius: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+audio::-webkit-media-controls-volume-slider {
+  border-radius: 25px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-right: 2px;
+}
+
+audio {
+  display: flex;
+  align-self: flex-end;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+   width: 100%;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+  width: 100%;
+  padding: 1%;
+  background-color: #fff;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.audio-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.audio-container img {
+  border-radius: 6px;
+  height: 80px;
+  margin: 4px 16px 0;
+  border: 1px solid rgb(240, 240, 241);
+}
+
+.audio-text-container {
+  width: 60%;
+}
+
+.audio-text-container h1 {
+  font-size: 1em;
+}
+
+.audio-header h1 {
+  font-size: 1em;
+  text-align: left;
+}
+.audio-header {
+  text-align: left;
+}
+
+.audio-text-container p {
+  font-size: 0.8em;
+}
+
+.audio {
+  width: 100%;
+  margin-top: 4px;
+}

@@ -1,0 +1,108 @@
+.result-fixtures {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+ .result-fixtures .match-info .home-team {
+  margin-right: 20px;
+}
+
+ .result-fixtures .match-info .away-team {
+  margin-left: 20px;
+}
+
+ .result-fixtures .match-info {
+  padding: 20px;
+  width: 100%;
+  margin: 10px;
+  box-shadow: 0 5px 12px rgb(0 0 0 / 14%);
+  border-radius: 5px;
+  position: relative;
+  border-bottom: 6px solid #b48a55;
+  background-color: #FFF;
+}
+
+ .result-fixtures .match-info img {
+  width: 60px;
+  height: 60px;
+  margin: 0 20px;
+  position: relative;
+  left: -5.5em;
+}
+
+.result-fixtures .text {
+  width: 100px;
+  padding-top: 5px;
+  margin: 0 30px;
+  position: relative;
+  left: -5.5em;
+}
+
+.result-fixtures .text h2 {
+  margin: 0;
+  text-align: center;
+}
+
+.result-fixtures .text p {
+  margin: 0;
+  text-align: center;
+}
+
+.result-fixtures .time {
+  width: 100px;
+  padding-top: 15px;
+  margin: 0 30px;
+  text-align: center;
+  position: relative;
+  left: -5.5em;
+}
+
+.team-name {
+  margin-top: 10px;
+  padding: 0 40px;
+  text-transform: uppercase;
+  position: relative;
+  left: -3em;
+}
+
+.match-date {
+  width: 200px;
+  margin-top: 10px;
+  padding: 0 20px 0 40px;
+  position: relative;
+  left: -3em;
+}
+
+.round {
+  margin: 30px 0;
+  padding: 0 40px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.round:before {
+  content: '';
+  width: 150px;
+  position: absolute;
+  width: calc(80% - 1rem);
+  left: -100px;
+  top: 50%;
+  transform: translate(0, -50%);
+  height: 2px;
+  background: #b48a55;
+}
+
+.round:after {
+  content: '';
+  position: absolute;
+  width: calc(80% - 1rem);
+  right: -100px;
+  top: 50%;
+  transform: translate(0, -50%);
+  height: 2px;
+  background: #b48a55;
+}
